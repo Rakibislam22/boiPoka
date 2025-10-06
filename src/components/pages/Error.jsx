@@ -4,7 +4,7 @@ import { BookOpen } from "lucide-react";
 const Error = () => {
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#E0C3FC] to-[#8EC5FC] text-gray-800 px-6 text-center">
+        <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-white to-[#1313130d] text-gray-800 px-6 text-center">
             {/* Logo / Icon */}
             <div className="flex items-center gap-3 mb-6">
                 <BookOpen className="w-10 h-10 text-indigo-600" />
@@ -25,13 +25,13 @@ const Error = () => {
             <div className="mt-8 flex gap-4">
                 <a
                     href="/"
-                    className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition"
+                    className="px-6 py-3 bg-[#23BE0A] hover:bg-[#1c9908] text-white font-semibold rounded-xl shadow-md transition"
                 >
                     Go Home
                 </a>
                 <a
                     href="/books"
-                    className="px-6 py-3 border border-indigo-600 text-indigo-600 font-semibold rounded-xl hover:bg-indigo-50 transition"
+                    className="px-6 py-3 bg-[#59C6D2] hover:bg-[#43959e] text-white font-semibold rounded-xl transition"
                 >
                     Browse Books
                 </a>

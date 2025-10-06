@@ -6,6 +6,9 @@ import { RouterProvider } from "react-router/dom";
 import Home from './components/home.jsx';
 import Banner from './components/Banner.jsx';
 import Error from './components/pages/Error.jsx';
+import Books from './components/books/Books.jsx';
+import ListedBooks from './components/pages/ListedBooks.jsx';
+import PagesToRead from './components/pages/PagesToRead.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +18,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         Component: Banner
+      },
+      {
+        path: "/listedBook",
+        Component: ListedBooks
+      },
+      {
+        path: "/pagesToRead",
+        Component: PagesToRead
       }
     ],
     errorElement: <Error></Error>
